@@ -1,8 +1,11 @@
 app.views.Home = Ext.extend(Ext.Carousel, {
   title: 'Home',
   iconCls: 'home',
+  interval: 5,
+  autoPlay: true,
+  transitionEasing: 'easeIn' 
 
-  dockedItems: [
+  ,dockedItems: [
   	{
   		dock: 'top',
   		xtype: 'toolbar',
