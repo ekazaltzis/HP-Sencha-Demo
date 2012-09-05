@@ -1,10 +1,12 @@
 app.views.Home = Ext.extend(Ext.Carousel, {
   autoPlay: true,
   transitionEasing: 'easeIn', 
-  layout : "hbox",
-  align : 'center',
-  pack : 'center',
-  dockedItems: [
+layout: {
+        type: 'hbox',
+        align: 'start',
+        pack: 'start'
+    },
+    dockedItems: [
   	{
   		dock: 'top',
   		xtype: 'toolbar',
