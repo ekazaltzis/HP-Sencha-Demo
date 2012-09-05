@@ -15,8 +15,6 @@ app.views.Home = Ext.extend(Ext.Carousel, {
     {
   	  		xtype: 'button',
 		  		cls: 'mapIcon',
-		  		width:  '200%',
-		  		height: '100%',
 		  		handler: function() {
 		  			app.views.viewport.setActiveItem(app.views.map, {type: 'slide', direction: 'left'});
 		  		}      
@@ -25,8 +23,6 @@ app.views.Home = Ext.extend(Ext.Carousel, {
   	  	{
 		  		xtype: 'button',
 		  		cls: 'twitterIcon',
-		  		width:  100,
-		  		height: 100,
 		  		handler: function() {
 		  			app.views.viewport.setActiveItem(app.views.twitter, {type: 'slide', direction: 'left'});
 		  		}
