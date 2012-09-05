@@ -19,6 +19,9 @@ app.views.Viewport = Ext.extend(Ext.Panel, {
       settings: new app.views.Settings(),
       camera:   new app.views.Camera()
     });
+    
+    apps.view.Home.setItems(appstoreshome.data);
+    
     //put instances of cards into viewport
     Ext.apply(this, {
       items: [
