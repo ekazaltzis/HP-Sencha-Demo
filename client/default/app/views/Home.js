@@ -1,7 +1,7 @@
 app.views.Home = Ext.extend(Ext.Panel, {
   autoPlay: true,
   transitionEasing: 'easeIn', 
-  scroll: 'vertical',
+  scroll: 'horizontal',
 layout: {
         type: 'hbox',
         align: 'center',
