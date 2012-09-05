@@ -2,7 +2,7 @@
 	width: 50% !important;
 	height: 50% !important;
 	background-color: transparent !important;
-  display: block;
+  display: inline-block !important;
 	border: 1px !important;
   margin:auto;
   vertical-align: middle;
