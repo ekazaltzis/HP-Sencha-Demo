@@ -1,8 +1,8 @@
 .mapIcon {
-	width: 100% !important;
-	width: 100% !important;
+	width: 90% !important;
+	width: 90% !important;
 	background-color: transparent !important;
-	border: none !important;
+	border: 1px !important;
   background-size: 100% 100%;
   background-image: url("../images/icons/maps_icon.png") !important;
 }
