@@ -46,8 +46,8 @@
 }
 
 .webviewIcon {
-  width: 100% !important;
-	height: 1000% !important;
+  width: 90% !important;
+	height: 90% !important;
 	background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
