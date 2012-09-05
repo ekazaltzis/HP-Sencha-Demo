@@ -1,6 +1,6 @@
 .mapIcon {
-  width: 90% !important;
-  height: 90% !important;
+  width: 100% !important;
+  height: 100% !important;
 	background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
@@ -11,9 +11,9 @@
 }
 
 .twitterIcon {
-  width: 90% !important;
-  height: 90% !important;
-	background-color: transparent !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
   background-image: url("../images/icons/twitter_icon.png") !important;
@@ -23,9 +23,9 @@
 }
 
 .settingsIcon {
-  width: 90% !important;
-  height: 90% !important;
-	background-color: transparent !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
   background-image: url("../images/icons/settings_icon.png") !important;
@@ -35,9 +35,9 @@
 }
 
 .cameraIcon {
-  width: 90% !important;
-  height: 90% !important;
-	background-color: transparent !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
   background-image: url("../images/icons/camera_icon.png") !important;
@@ -47,9 +47,9 @@
 }
 
 .webviewIcon {
-  width: 90% !important;
-	height: 90% !important;
-	background-color: transparent !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
   background-image: url("../images/icons/webview_logo.png") !important;
@@ -59,9 +59,9 @@
 }
 
 .paymentIcon {
-  width: 90% !important;
-	height: 90% !important;
-	background-color: transparent !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
   background-image: url("../images/icons/payment_icon.png") !important;
