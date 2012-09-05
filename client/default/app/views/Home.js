@@ -1,4 +1,7 @@
-
+var data = 
+[
+  
+];
 
 app.views.Home = Ext.extend(Ext.Panel, {
   scroll: 'horizontal',
