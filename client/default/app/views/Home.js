@@ -13,7 +13,7 @@ app.views.Home = Ext.extend(Ext.Carousel, {
   items: [
     {
   		xtype: 'panel',
-  		height: 20
+  		height: '100%'
   	},
 
   	/* Twitter & Google Maps Buttons */
