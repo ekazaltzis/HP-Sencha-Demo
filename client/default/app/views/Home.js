@@ -12,35 +12,16 @@ app.views.Home = Ext.extend(Ext.Carousel, {
 
   items: [
     {
-  		xtype: 'panel',
-  		height: '100%'
-  	},
-
-  	/* Twitter & Google Maps Buttons */
-  	new Ext.Panel({
-  		height: 100,
-
-  		layout: {
-	      type: 'hbox',
-	      pack: 'center',  
-	    },
-	    items: [
-	    	{
-		  		xtype: 'spacer'
-		  	},
-		  	{
-		  		xtype: 'button',
+  	  		xtype: 'button',
 		  		cls: 'mapIcon',
 		  		width:  100,
 		  		height: 100,
 		  		handler: function() {
 		  			app.views.viewport.setActiveItem(app.views.map, {type: 'slide', direction: 'left'});
-		  		}
-		  	},
-		  	{
-		  		xtype: 'spacer'
-		  	},
-		  	{
+		  		}      
+    },
+    
+  	  	{
 		  		xtype: 'button',
 		  		cls: 'twitterIcon',
 		  		width:  100,
@@ -50,29 +31,6 @@ app.views.Home = Ext.extend(Ext.Carousel, {
 		  		}
 		  	},
 		  	{
-		  		xtype: 'spacer'
-		  	}
-	    ]
-  	}),
-
-  	{
-  		xtype: 'panel',
-  		height: 20
-  	},
-
-  	/* Camera and Payment Buttons */
-  	new Ext.Panel({
-  		height: 100,
-
-  		layout: {
-	      type: 'hbox',
-	      pack: 'center',  
-	    },
-	    items: [
-	    	{
-		  		xtype: 'spacer'
-		  	},
-		  	{
 		  		xtype: 'button',
 		  		cls:  'paymentIcon',
 		  		width:  100,
@@ -80,9 +38,6 @@ app.views.Home = Ext.extend(Ext.Carousel, {
 		  		handler: function() {
 		  			app.views.viewport.setActiveItem(app.views.payment, {type: 'slide', direction: 'left'});
 		  		}
-		  	},
-		  	{
-		  		xtype: 'spacer'
 		  	},
 		  	{
 		  		xtype: 'button',
@@ -97,29 +52,6 @@ app.views.Home = Ext.extend(Ext.Carousel, {
 		  		}
 		  	},
 		  	{
-		  		xtype: 'spacer'
-		  	}
-	    ]
-  	}),
-
-  	{
-  		xtype: 'panel',
-  		height: 20
-  	},
-
-  	/* Stocks & Settings Buttons  */
-  	new Ext.Panel({
-  		height: 100,
-
-  		layout: {
-	      type: 'hbox',
-	      pack: 'center',  
-	    },
-	    items: [
-	    	{
-		  		xtype: 'spacer'
-		  	},
-		  	{
 		  		xtype: 'button',
 		  		cls: 'webviewIcon',
 		  		width:  100,
@@ -129,9 +61,6 @@ app.views.Home = Ext.extend(Ext.Carousel, {
 		  		}
 		  	},
 		  	{
-		  		xtype: 'spacer'
-		  	},		  	
-		  	{
 		  		xtype: 'button',
 		  		cls: 'settingsIcon',
 		  		width:  100,
@@ -139,11 +68,7 @@ app.views.Home = Ext.extend(Ext.Carousel, {
 		  		handler: function() {
 		  			app.views.viewport.setActiveItem(app.views.settings, {type: 'slide', direction: 'left'});
 		  		}
-		  	},
-		  	{
-		  		xtype: 'spacer'
 		  	}
-	    ]
-  	}),
+	
   ]
 });
