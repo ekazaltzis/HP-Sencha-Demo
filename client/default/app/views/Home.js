@@ -15,7 +15,7 @@ app.views.Home = Ext.extend(Ext.Carousel, {
     {
   	  		xtype: 'button',
 		  		cls: 'mapIcon',
-		  		width:  '100%',
+		  		width:  '200%',
 		  		height: '100%',
 		  		handler: function() {
 		  			app.views.viewport.setActiveItem(app.views.map, {type: 'slide', direction: 'left'});
