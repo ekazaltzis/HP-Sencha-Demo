@@ -12,6 +12,7 @@ layout: {
   		title: '<img class="logo" src="app/images/logo.png" />',
   	}
   ],
-  store : app.stores.home
+  store : app.stores.home,
+  itemTpl: '{button.cls}'
 
 });
