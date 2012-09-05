@@ -3,6 +3,7 @@ app.views.Home = Ext.extend(Ext.Carousel, {
   transitionEasing: 'easeIn', 
   layout : "hbox",
   align : 'center',
+  pack : 'center',
   dockedItems: [
   	{
   		dock: 'top',
