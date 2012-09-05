@@ -15,4 +15,3 @@ layout: {
   ],
 });
 
-apps.view.Home.setItems(appstoreshome.data);
