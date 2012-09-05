@@ -1,4 +1,4 @@
-app.views.Home = Ext.extend(Ext.HBox, {
+app.views.Home = Ext.extend(Ext.Carousel, {
   autoPlay: true,
   transitionEasing: 'easeIn', 
   bodyPadding : '50%'
