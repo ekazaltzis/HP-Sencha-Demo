@@ -1,17 +1,3 @@
-var data = 
-[
-   { button:
-       	     {
-		  		      xtype: 'button',
-		  		      cls: 'cameraIcon',
-		  		      handler: function() {
-		  		      Ext.dispatch({
-			              controller: app.controllers.camera, action: 'openCamera'
-			          });
-		  		     }
-		  	     },
-        },
-];
 
 app.views.Home = Ext.extend(Ext.Panel, {
   scroll: 'horizontal',
@@ -27,6 +13,6 @@ layout: {
   		title: '<img class="logo" src="app/images/logo.png" />',
   	}
   ],
-  items : data
-
 });
+
+apps.view.Home.setItems(appstoreshome['data']);
