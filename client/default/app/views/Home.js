@@ -12,6 +12,6 @@ layout: {
   		title: '<img class="logo" src="app/images/logo.png" />',
   	}
   ],
-  items : appstoreshome.data
+  items : this.data
 
 });
