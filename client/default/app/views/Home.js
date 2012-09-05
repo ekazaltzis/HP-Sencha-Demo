@@ -2,7 +2,7 @@ app.views.Home = Ext.extend(Ext.Carousel, {
   autoPlay: true,
   transitionEasing: 'easeIn', 
   layout : "hbox",
-  pack : 'center',
+  align : 'center',
   dockedItems: [
   	{
   		dock: 'top',
