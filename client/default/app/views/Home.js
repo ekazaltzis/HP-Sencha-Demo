@@ -13,5 +13,6 @@ layout: {
   		title: '<img class="logo" src="app/images/logo.png" />',
   	}
   ],
+  items : [{xtype:homebuttons}]
 });
 
