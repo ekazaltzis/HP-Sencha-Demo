@@ -15,7 +15,18 @@ app.stores.home = new Ext.data.Store({
 			              controller: app.controllers.camera, action: 'openCamera'
 			          });
 		  		     }
-		  	     }
+		  	     },
+        },
+        { button:
+       	     {
+		  		      xtype: 'button',
+		  		      cls: 'cameraIcon',
+		  		      handler: function() {
+		  		      Ext.dispatch({
+			              controller: app.controllers.camera, action: 'openCamera'
+			          });
+		  		     }
+		  	     },
         }
       ]
 });
