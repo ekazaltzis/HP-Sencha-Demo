@@ -1,7 +1,8 @@
 .mapIcon {
-	width: 50% !important;
-	height: 50% !important;
+  width: 90% !important;
+  height: 90% !important;
 	background-color: transparent !important;
+	border: none !important;
   background-size: 100% 100%;
   background-image: url("../images/icons/maps_icon.png") !important;
 }
@@ -10,8 +11,8 @@
 }
 
 .twitterIcon {
-  width: 50% !important;
-	height: 50% !important;
+  width: 90% !important;
+  height: 90% !important;
 	background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
@@ -22,8 +23,8 @@
 }
 
 .settingsIcon {
-  width: 50% !important;
-	height: 50% !important;
+  width: 90% !important;
+  height: 90% !important;
 	background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
@@ -34,8 +35,8 @@
 }
 
 .cameraIcon {
-  width: 50% !important;
-	height: 50% !important;
+  width: 90% !important;
+  height: 90% !important;
 	background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
