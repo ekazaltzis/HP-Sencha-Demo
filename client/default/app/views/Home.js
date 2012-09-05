@@ -17,7 +17,7 @@ layout: {
 
   items: [
     {
-      scroll: 'vertical',
+      scroll: 'horizontal',
   	  		xtype: 'button',
 		  		cls: 'mapIcon',
 		  		handler: function() {
