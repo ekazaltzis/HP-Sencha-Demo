@@ -11,8 +11,8 @@
 }
 
 .twitterIcon {
-  width: 100% !important;
-  height: 100% !important;
+  width: 20% !important;
+  height: 20% !important;
   background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
@@ -23,8 +23,8 @@
 }
 
 .settingsIcon {
-  width: 100% !important;
-  height: 100% !important;
+  width: 20% !important;
+  height: 20% !important;
   background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
@@ -35,8 +35,8 @@
 }
 
 .cameraIcon {
-  width: 100% !important;
-  height: 100% !important;
+  width: 20% !important;
+  height: 20% !important;
   background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
@@ -47,8 +47,8 @@
 }
 
 .webviewIcon {
-  width: 100% !important;
-  height: 100% !important;
+  width: 20% !important;
+  height: 20% !important;
   background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
@@ -59,8 +59,8 @@
 }
 
 .paymentIcon {
-  width: 100% !important;
-  height: 100% !important;
+  width: 20% !important;
+  height: 20% !important;
   background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
