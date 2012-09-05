@@ -14,6 +14,6 @@ layout: {
   		title: '<img class="logo" src="app/images/logo.png" />',
   	}
   ],
-  items : data
+  items : this.data
 
 });
