@@ -13,6 +13,6 @@ layout: {
   	}
   ],
   store : app.stores.home,
-  itemTpl: "hello"
+  itemTpl: 'hello'
 
 });
