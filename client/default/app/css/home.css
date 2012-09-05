@@ -17,7 +17,7 @@
 	height: 50% !important;
 	background-color: transparent !important;
 	border: none !important;
-  background-size: 100% 100%;
+  background-size: 50% 50%;
   background-image: url("../images/icons/twitter_icon.png") !important;
 }
 .twitterIcon:active, .twitterIcon:hover {
@@ -25,8 +25,8 @@
 }
 
 .settingsIcon {
-  width: 90% !important;
-	height: 90% !important;
+  width: 50% !important;
+	height: 50% !important;
 	background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
@@ -37,8 +37,8 @@
 }
 
 .cameraIcon {
-  width: 90% !important;
-	height: 90% !important;
+  width: 50% !important;
+	height: 50% !important;
 	background-color: transparent !important;
 	border: none !important;
   background-size: 100% 100%;
