@@ -16,6 +16,7 @@ layout: {
 
   items: [
     {
+      scroll: 'vertial',
   	  		xtype: 'button',
 		  		cls: 'mapIcon',
 		  		handler: function() {
@@ -24,6 +25,7 @@ layout: {
     },
     
   	  	{
+          scroll: 'vertial',
 		  		xtype: 'button',
 		  		cls: 'twitterIcon',
 		  		handler: function() {
