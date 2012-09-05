@@ -1,6 +1,7 @@
 app.views.Home = Ext.extend(Ext.Panel, {
   autoPlay: true,
   transitionEasing: 'easeIn', 
+  scroll: 'vertical',
 layout: {
         type: 'hbox',
         align: 'center',
@@ -16,7 +17,7 @@ layout: {
 
   items: [
     {
-      scroll: 'vertial',
+      scroll: 'vertical',
   	  		xtype: 'button',
 		  		cls: 'mapIcon',
 		  		handler: function() {
@@ -25,7 +26,7 @@ layout: {
     },
     
   	  	{
-          scroll: 'vertial',
+          scroll: 'vertical',
 		  		xtype: 'button',
 		  		cls: 'twitterIcon',
 		  		handler: function() {
