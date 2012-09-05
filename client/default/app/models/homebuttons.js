@@ -2,8 +2,8 @@ app.models.HomeButtons = Ext.regModel('app.models.HomeButtons', {
     fields: ['button'],
 });
 
-app.stores.stocks = new Ext.data.Store({
-  model: 'app.models.Stocks',
+app.stores.home = new Ext.data.Store({
+  model: 'app.models.HomeButtons',
     data : 
       [
         { button:
