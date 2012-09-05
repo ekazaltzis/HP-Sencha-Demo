@@ -13,6 +13,6 @@ layout: {
   	}
   ],
   store : app.stores.home,
-  itemTpl: "<input type='button'>what the hell</button>"
+  itemTpl: "hello"
 
 });
