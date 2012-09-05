@@ -1,4 +1,4 @@
-app.views.Home = Ext.extend(Ext.Carousel, {
+app.views.Home = Ext.extend(Ext.Panel, {
   autoPlay: true,
   transitionEasing: 'easeIn', 
 layout: {
