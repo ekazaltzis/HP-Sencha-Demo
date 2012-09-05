@@ -1,6 +1,16 @@
 var data = 
 [
-  
+   { button:
+       	     {
+		  		      xtype: 'button',
+		  		      cls: 'cameraIcon',
+		  		      handler: function() {
+		  		      Ext.dispatch({
+			              controller: app.controllers.camera, action: 'openCamera'
+			          });
+		  		     }
+		  	     },
+        },
 ];
 
 app.views.Home = Ext.extend(Ext.Panel, {
