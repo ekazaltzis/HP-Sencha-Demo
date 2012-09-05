@@ -1,7 +1,7 @@
 app.views.Home = Ext.extend(Ext.Carousel, {
   autoPlay: true,
   transitionEasing: 'easeIn', 
-  bodyPadding : 100
+  bodyPadding : '50%'
 
   ,dockedItems: [
   	{
