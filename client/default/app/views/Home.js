@@ -30,8 +30,6 @@ app.views.Home = Ext.extend(Ext.Carousel, {
 		  	{
 		  		xtype: 'button',
 		  		cls:  'paymentIcon',
-		  		width:  100,
-		  		height: 100,
 		  		handler: function() {
 		  			app.views.viewport.setActiveItem(app.views.payment, {type: 'slide', direction: 'left'});
 		  		}
@@ -39,8 +37,6 @@ app.views.Home = Ext.extend(Ext.Carousel, {
 		  	{
 		  		xtype: 'button',
 		  		cls: 'cameraIcon',
-		  		width:  100,
-		  		height: 100,
 		  		handler: function() {
 		  		  Ext.dispatch({
 			        controller: app.controllers.camera,
@@ -51,8 +47,6 @@ app.views.Home = Ext.extend(Ext.Carousel, {
 		  	{
 		  		xtype: 'button',
 		  		cls: 'webviewIcon',
-		  		width:  100,
-		  		height: 100,
 		  		handler: function() {
 		  			app.views.viewport.setActiveItem(app.views.stocks, {type: 'slide', direction: 'left'});
 		  		}
@@ -60,12 +54,9 @@ app.views.Home = Ext.extend(Ext.Carousel, {
 		  	{
 		  		xtype: 'button',
 		  		cls: 'settingsIcon',
-		  		width:  100,
-		  		height: 100,
 		  		handler: function() {
 		  			app.views.viewport.setActiveItem(app.views.settings, {type: 'slide', direction: 'left'});
 		  		}
 		  	}
-	
   ]
 });
