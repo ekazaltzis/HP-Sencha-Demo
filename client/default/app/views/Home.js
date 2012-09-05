@@ -1,3 +1,5 @@
+
+
 app.views.Home = Ext.extend(Ext.Panel, {
   scroll: 'horizontal',
 layout: {
@@ -12,6 +14,6 @@ layout: {
   		title: '<img class="logo" src="app/images/logo.png" />',
   	}
   ],
-  items : this.data
+  items : data
 
 });
